@@ -6,6 +6,7 @@
     <title>My Webpage</title>
     <!-- Link to the CSS file -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
 </head>
 <body>
 
@@ -13,15 +14,15 @@
     <nav>
         <div class="navbar text-white page">
             <div class="nav-links">
-                <a href="#" class="navLink">
+                <a href="#" class="navLink" data-aos="fade-down">
                     Privacy Policy
                 </a>
 
-                <a href="#" class="navLink">
+                <a href="#" class="navLink" data-aos="fade-down">
                     Terms & Conditions
                 </a>
             </div>
-            <div class="logo">
+            <div class="logo" data-aos="fade-down">
                 <a href="/">
                     <img src="./assets/images/logo.png" alt="Logo" style="width: 100px; height: 50px">
                 </a>
@@ -31,7 +32,7 @@
     </nav>
     <div class="banner">
         <img src="./assets/images/header-bg.png" alt="bg-img" class="ribbon-image">
-        <h6 class="large-heading page">
+        <h6 class="large-heading page" data-aos="zoom-in">
             Q Pulse
         </h6>
     </div>
@@ -39,14 +40,14 @@
     <div class="w-layout-blockcontainer container w-container page">
         <div class="center-content center-text">
             <div class="limit">
-                <div class="title">arts center, san francisco</div>
-                <p class="medium-text">Take Your Data to the Next Level<br>Efficient Data Management Made Easy.</p>
+                <div class="title" data-aos="fade-up">arts center, san francisco</div>
+                <p class="medium-text" data-aos="fade-up">Take Your Data to the Next Level<br>Efficient Data Management Made Easy.</p>
             </div>
         </div>
     </div>
 </header>
 
-<div class="split page">
+<div class="split page" data-aos="fade-up">
     <div id="w-node-ceb390d6-4292-c3cd-e94b-27114dcd9890-2636d688" class="limit-medium center"><h2>What is QPluse?</h2>
         <p class="medium-text">QPulse is an all-in-one solution designed to help businesses optimize their data
             efficiently. It simplifies data cleaning, allowing users to clean their data in just a few steps. With its
@@ -63,11 +64,11 @@
 <!--Footer-->
 <footer>
     <div class="page">
-        <div class="footer-logo">
+        <div class="footer-logo" data-aos="fade-right">
             <img src="./assets/images/logo.png" alt="Logo" style="width: 100%">
         </div>
 
-        <div class="footer-links">
+        <div class="footer-links" data-aos="fade-left">
             <div class="nav-links">
                 <a href="#" class="navLink">
                     Privacy Policy
@@ -82,11 +83,17 @@
 
     <hr>
 
-    <div class="copy-right">
+    <div class="copy-right" data-aos="fade-up">
         <p>© 2025 by Jane Doe and "Copyright © 2025 Jane Doe</p>
     </div>
 </footer>
 <!-- Link to the JavaScript file -->
 <script src="js/script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 1000 ,
+        once: true,
+    });</script>
 </body>
 </html>
