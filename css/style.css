@@ -64,7 +64,8 @@ nav > .navbar > .logo {
     position: absolute;
     inset: 0%;
 }
-.banner{
+
+.banner {
     position: relative;
     flex-flow: column;
     justify-content: center;
@@ -74,7 +75,7 @@ nav > .navbar > .logo {
     display: flex
 }
 
-.large-heading{
+.large-heading {
     text-align: center;
     font-size: 8vw;
     font-weight: 400;
@@ -86,6 +87,7 @@ nav > .navbar > .logo {
     padding-left: 40px;
     padding-right: 40px;
 }
+
 .w-layout-blockcontainer {
     max-width: 940px;
     margin-left: auto;
@@ -143,4 +145,32 @@ nav > .navbar > .logo {
     text-align: center;
     width: 100%;
     max-width: 800px;
+}
+
+/*footer*/
+footer {
+    margin-top: 100px;
+}
+
+.footer-logo {
+    padding-inline: 20px;
+    max-width: 250px;
+}
+
+.footer-links {
+    padding-block: 30px;
+}
+
+hr {
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.copy-right {
+    padding-block: 28px;
+}
+
+.copy-right > p {
+    text-align: center !important;
+    color: rgba(255, 255, 255, 0.6) !important;
 }

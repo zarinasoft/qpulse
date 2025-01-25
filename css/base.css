@@ -4,6 +4,19 @@
     --secondary-color: rgba(255, 255, 255, 0.7); /* Replace with your secondary color */
 }
 
+.page{
+    max-width: 1336px !important;
+    margin-inline: auto !important;
+    padding-inline: 40px;
+}
+
+@media (max-width: 767px) {
+    .page{
+        padding-inline: 20px !important;
+    }
+}
+
+
 /* Default Utility Classes */
 .text-center {
     text-align: center;
@@ -43,4 +56,10 @@
     line-height: 100% !important;
     text-decoration: none;
     display: inline-block;
+
+    transition: all 0.7s;
+}
+
+.navLink:hover {
+    color: var(--primary-color) !important;
 }
