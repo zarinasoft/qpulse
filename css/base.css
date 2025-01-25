@@ -1,0 +1,33 @@
+/* Define Primary and Secondary Colors */
+:root {
+    --primary-color: rgb(0, 76, 218); /* Replace with your primary color */
+    --secondary-color: rgba(255, 255, 255, 0.7); /* Replace with your secondary color */
+}
+
+/* Default Utility Classes */
+.text-center {
+    text-align: center;
+}
+
+.text-primary {
+    color: var(--primary-color);
+}
+
+.text-white {
+    color: white;
+}
+
+
+.text-secondary {
+    color: var(--secondary-color);
+}
+
+.bg-primary {
+    background-color: var(--primary-color);
+    color: #fff; /* Ensures text is visible */
+}
+
+.bg-secondary {
+    background-color: var(--secondary-color);
+    color: #fff;
+}
