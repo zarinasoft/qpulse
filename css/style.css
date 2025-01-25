@@ -4,6 +4,8 @@
 
 body {
     background-color: black;
+    font-family: -apple-system, BlinkMacSystemFont, "San Francisco", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+    color: white;
 }
 
 nav {
@@ -51,4 +53,69 @@ nav > .navbar > .logo {
     nav > .navbar > .logo {
         width: auto;
     }
+}
+
+
+/*banner*/
+.ribbon-image {
+    z-index: -1;
+    pointer-events: none;
+    width: 100%;
+    position: absolute;
+    inset: 0%;
+}
+.banner{
+    position: relative;
+    flex-flow: column;
+    justify-content: center;
+    align-items: stretch;
+    height: 39vw;
+    padding-top: 3vw;
+    display: flex
+}
+
+.large-heading{
+    text-align: center;
+    font-size: 8vw;
+    font-weight: 400;
+}
+
+/*header text*/
+.container {
+    max-width: 1360px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.w-layout-blockcontainer {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.center-content {
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex
+}
+
+.limit {
+    max-width: 480px;
+}
+
+.title {
+    text-align: center;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-family: Roboto Mono, sans-serif;
+    font-weight: 500;
+    line-height: 100%;
+}
+
+.medium-text {
+    text-align: center;
+    font-size: 18px;
+    line-height: 150%;
 }
