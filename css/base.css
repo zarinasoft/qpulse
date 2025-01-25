@@ -1,6 +1,6 @@
 /* Define Primary and Secondary Colors */
 :root {
-    --primary-color: rgb(0, 76, 218); /* Replace with your primary color */
+    --primary-color: #5FB4F7; /* Replace with your primary color */
     --secondary-color: rgba(255, 255, 255, 0.7); /* Replace with your secondary color */
 }
 
@@ -62,4 +62,16 @@
 
 .navLink:hover {
     color: var(--primary-color) !important;
+}
+
+.active{
+    color: var(--primary-color) !important;
+    border-bottom: 2px solid var(--primary-color) !important;
+}
+
+.link{
+    color: var(--primary-color);
+}
+.uppercase{
+    text-transform: uppercase;
 }

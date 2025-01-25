@@ -117,7 +117,6 @@ nav > .navbar > .logo {
 }
 
 .medium-text {
-    text-align: center;
     font-size: 18px;
     line-height: 150%;
 }
@@ -173,4 +172,23 @@ hr {
 .copy-right > p {
     text-align: center !important;
     color: rgba(255, 255, 255, 0.6) !important;
+}
+
+/*details*/
+
+.details{
+    display: flex; /* or display: grid */
+    flex-direction: column; /* Stack children vertically */
+    gap: 30px; /* Add 40px space between children */
+
+    font-size: 18px;
+    line-height: 150%;
+}
+
+
+ul {
+    padding-left: 50px; /* Adjust the space from the left */
+    line-height: 30px;
+    list-style-type: disc; /* Ensures the default disk is used */
+    color: rgba(255, 255, 255, 0.8);
 }
